@@ -6,7 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 
+import br.dev.gabriel.tarefas.dao.FuncionarioDAO;
 import br.dev.gabriel.tarefas.model.Tarefa;
+import br.dev.gabriel.tarefas.ui.FuncionariosListaFrame;
 
 public class Main {
 
@@ -15,6 +17,11 @@ public class Main {
 	public static void main(String[] args) {
 
 		Tarefa tarefa1 = new Tarefa();
+		
+		//new FuncionarioDAO dao = new FuncionarioDAO(null);
+		// dao.getFuncionario();
+		
+		//new FuncionariosListaFrame();
 
 		// escreverArquivo();
 		// lerArquivo();

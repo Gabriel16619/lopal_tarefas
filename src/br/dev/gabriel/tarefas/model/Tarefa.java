@@ -18,6 +18,10 @@ public class Tarefa {
 	public Tarefa() {
 		System.out.println("Criando uma tarefa...");
 	}
+	public Tarefa(String nome) {
+		System.out.println("Criando uma tarefa" + nome);
+		this.nome = nome;
+	}
 
 //criação das Sections
 	public String getNome() {
